@@ -2,4 +2,7 @@
     <string name="app_name">My ApplicationPractice</string>
     <string name="action_settings">Settings</string>
     <string name="blabla">This is a test</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="what_you_type">The shit you typed</string>
+    <string name="back">back</string>
 </resources>

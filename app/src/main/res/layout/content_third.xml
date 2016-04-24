@@ -9,32 +9,38 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.acer.myapplicationpractice.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:context="com.example.acer.myapplicationpractice.ThirdActivity"
+    tools:showIn="@layout/activity_third">
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/textView" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/ET_EditMessage"
-        android:layout_below="@id/textView"
+        android:text="@string/what_you_type"
+        android:id="@+id/TV_showShit"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textSize = "25sp"
-        android:inputType="text" />
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35sp"
+        android:text=""
+        android:id="@+id/TV_Output"
+        android:layout_below="@id/TV_showShit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
 
     <Button
-        style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/blabla"
-        android:id="@+id/BT_JumpToThird"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:text="@string/back"
+        android:id="@+id/BT_Back"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginTop="80dp" />
+
+
 </RelativeLayout>
